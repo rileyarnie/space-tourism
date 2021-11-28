@@ -1,12 +1,14 @@
 import Head from "next/head";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
-    <>
+    <div className="h-screen max-h-screen bg-mobile bg-no-repeat bg-cover lg:bg-tablet xl:bg-desktop ">
       <Head>
         <title>Space Tourism</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Navbar />
       <div className="  px-6 mt-16 space-y-6">
         <p className="text-center text-text-color font-barlow-condensed leading-5 tracking-even-wider">
           SO, YOU WANT TO TRAVEL TO
@@ -24,6 +26,6 @@ export default function Home() {
       <div className="bg-white mt-20 h-40 w-40 mx-auto rounded-full grid place-items-center">
         <p className="text-xl font-bellefair">EXPLORE</p>
       </div>
-    </>
+    </div>
   );
 }

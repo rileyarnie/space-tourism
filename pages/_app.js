@@ -4,7 +4,7 @@ import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="h-screen max-h-screen bg-mobile bg-no-repeat bg-cover lg:bg-tablet xl:bg-desktop ">
+    <div>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
       </Head>
-      <Navbar />
+      {/* <Navbar /> */}
       <Component {...pageProps} />
     </div>
   );
