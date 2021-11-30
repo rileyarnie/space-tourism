@@ -4,7 +4,7 @@ import IconClose from "./icons/IconClose";
 import { useState } from "react";
 
 const Navbar = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   const handleToggle = () => {
     setOpen(!open);
