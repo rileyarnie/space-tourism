@@ -4,13 +4,27 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      spacing: {
+        '4.5': "1.125rem",
+      },
       colors: {
         "text-color": "#D0D6F9",
+        "number-color":"#0B0D17"
       },
       backgroundImage: {
         mobile: "url('/static/assets/home/background-home-mobile.jpg')",
         tablet: "url('/static/assets/home/background-home-tablet.jpg')",
         desktop: "url('/static/assets/home/background-home-desktop.jpg')",
+        "destination-mobile":
+          "url('/static/assets/destination/background-destination-mobile.jpg')",
+        "destination-tablet":
+          "url('/static/assets/destination/background-destination-tablet.jpg')",
+        "destination-desktop":
+          "url('/static/assets/destination/background-destination-desktop.jpg')",
+        "crew-mobile": "url('/static/assets/crew/background-crew-mobile.jpg')",
+        "crew-tablet": "url('/static/assets/crew/background-crew-tablet.jpg')",
+        "crew-desktop":
+          "url('/static/assets/crew/background-crew-desktop.jpg')",
       },
       fontFamily: {
         "barlow-condensed": ['"Barlow Condensed"', "serif"],
