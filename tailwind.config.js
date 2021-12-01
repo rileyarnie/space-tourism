@@ -5,11 +5,13 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
-        '4.5': "1.125rem",
+        "thin-line": "0.0625rem",
+        4.5: "1.125rem",
       },
       colors: {
         "text-color": "#D0D6F9",
-        "number-color":"#0B0D17"
+        "number-color": "#0B0D17",
+        "divider-color": "#383B4B",
       },
       backgroundImage: {
         mobile: "url('/static/assets/home/background-home-mobile.jpg')",
@@ -33,6 +35,8 @@ module.exports = {
       },
       fontSize: {
         "above-base": "0.9375rem",
+        "2.5xl": "1.75rem",
+        "5.5xl": "3.5rem",
         "7.5xl": "5rem",
       },
       lineHeight: {
