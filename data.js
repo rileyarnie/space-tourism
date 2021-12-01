@@ -76,9 +76,14 @@ export const crew = [
   {
     id: 4,
     name: "Anousheh Ansari",
-    role: "Commander",
+    role: "Flight Engineer",
     profile:
-      "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.",
+      "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.",
     image: "/static/assets/crew/image-anousheh-ansari.webp",
   },
 ];
+
+export const getCrewMember = (id) => {
+  //filter to return array of one element and pick the first element
+  return crew.filter((member) => member.id === id)[0];
+};
