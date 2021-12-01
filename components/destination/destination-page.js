@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Navbar from "../Navbar";
-import Image from "next/image";
 import DestinationNav from "./destination-nav";
 import DestinationDescription from "./destination-description";
 
@@ -20,8 +19,8 @@ const DestinationPage = (props) => {
         </p>
         <p className="uppercase"> Pick your destination</p>
       </div>
-      <div className="mt-8 grid place-items-center">
-        <Image src={destination.image} height="170" width="170" />
+      <div className="mt-8 grid place-items-center z">
+        <img src={destination.image} height="170" width="170" />
       </div>
       <DestinationNav names={destinations} />
       <DestinationDescription destination={destination} />
