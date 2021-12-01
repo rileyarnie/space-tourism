@@ -28,7 +28,7 @@ const Navbar = () => {
       </nav>
 
       {open && (
-        <div className=" h-full backdrop-blur-3xl absolute top-0 right-0 w-64 duration-1000 ease-in-out">
+        <div className=" h-full  backdrop-blur-xl absolute top-0 right-0 w-64 duration-1000 ease-in-out">
           <div className="text-white font-barlow-condensed mt-40 flex flex-col uppercase space-y-8 tracking-wider ml-7">
             <p className="">
               <span className="font-bold mr-2">00</span>
