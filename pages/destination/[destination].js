@@ -1,17 +1,26 @@
-import DestinationPage from "../../components/destination-page";
+import DestinationPage from "../../components/destination/destination-page";
 import { destinations, getDestination } from "../../data";
 
 const destination = (props) => {
-  return <DestinationPage destination={props.destination} />;
+  return (
+    <DestinationPage
+      destination={props.destination}
+      destinations={props.allDestinations}
+    />
+  );
 };
 
 export async function getStaticProps(context) {
   const { params } = context;
   const destination = getDestination(params.destination);
+  const allDestinations = destinations.map((destination) =>
+    destination.name.toLowerCase()
+  );
 
   return {
     props: {
       destination,
+      allDestinations,
     },
   };
 }
