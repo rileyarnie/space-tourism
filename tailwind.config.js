@@ -12,6 +12,7 @@ module.exports = {
         "text-color": "#D0D6F9",
         "number-color": "#0B0D17",
         "divider-color": "#383B4B",
+        "nav-background": "rgba(255, 255, 255, 0.04)",
       },
       backgroundImage: {
         mobile: "url('/static/assets/home/background-home-mobile.jpg')",
