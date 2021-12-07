@@ -27,6 +27,12 @@ module.exports = {
         "crew-tablet": "url('/static/assets/crew/background-crew-tablet.jpg')",
         "crew-desktop":
           "url('/static/assets/crew/background-crew-desktop.jpg')",
+        "technology-mobile":
+          "url('/static/assets/technology/background-technology-mobile.jpg')",
+        "technology-tablet":
+          "url('/static/assets/technology/background-technology-tablet.jpg')",
+        "technology-desktop":
+          "url('/static/assets/technology/background-technology-desktop.jpg')",
       },
       fontFamily: {
         "barlow-condensed": ['"Barlow Condensed"', "serif"],
