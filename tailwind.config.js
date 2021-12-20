@@ -7,6 +7,9 @@ module.exports = {
       spacing: {
         "thin-line": "0.0625rem",
         4.5: "1.125rem",
+        26: "6.625rem",
+        61.5: "15.125rem",
+        "really-huge": "28.125rem",
       },
       colors: {
         "text-color": "#D0D6F9",
@@ -43,8 +46,10 @@ module.exports = {
       fontSize: {
         "above-base": "0.9375rem",
         "2.5xl": "1.75rem",
+        "3.5xl": "2rem",
         "5.5xl": "3.5rem",
         "7.5xl": "5rem",
+        "10xl": "9.375rem",
       },
       lineHeight: {
         long: "6.25rem",
