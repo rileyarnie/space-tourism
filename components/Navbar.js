@@ -25,7 +25,7 @@ const Navbar = () => {
             <IconHamburger />
           </div>
         ) : (
-          <div className="z-10 md:hidden" onClick={handleToggle}>
+          <div className="z-20 md:hidden" onClick={handleToggle}>
             <IconClose />
           </div>
         )}
@@ -83,7 +83,7 @@ const Navbar = () => {
       </nav>
 
       {open && (
-        <div className=" h-full backdrop-blur-xl absolute top-0 right-0 w-64 duration-1000 ease-in-out">
+        <div className=" h-full backdrop-blur-xl bg-black bg-opacity-75 z-10 absolute top-0 right-0 w-64 duration-1000 ease-in-out">
           <div className="text-white font-barlow-condensed mt-40 flex flex-col uppercase space-y-8 tracking-wider ml-7">
             <p className="">
               <span className="font-bold mr-2">00</span>
