@@ -11,7 +11,7 @@ const CrewMemberPage = ({ crewMember, wholeCrew }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className="text-white flex space-x-4.5 justify-center font-barlow-condensed">
+      <div className="text-white flex space-x-4.5 justify-center font-barlow-condensed md:mt-10 md:justify-start md:pl-10">
         <p className="font-bold mix-blend-difference text-gray-500 tracking-even-wider">
           02
         </p>
